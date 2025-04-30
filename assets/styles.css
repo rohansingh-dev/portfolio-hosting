@@ -1,0 +1,157 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a2e;
+    color: #eaeaea;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #16213e;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #e94560;
+    border-bottom: 3px solid #0f3460;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #e94560;
+}
+
+.tagline {
+    font-size: 1.3rem;
+    color: #a6a6a6;
+    font-style: italic;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    justify-items: center;
+}
+
+.links-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.site-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    background: linear-gradient(135deg, #e94560, #0f3460);
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+}
+
+.site-link:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
+    background: linear-gradient(135deg, #0f3460, #e94560);
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #16213e;
+    color: #eaeaea;
+    border-top: 3px solid #0f3460;
+}
+
+.footer-text {
+    font-size: 1rem;
+    color: #a6a6a6;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #e94560;
+    font-weight: bold;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: #0f3460;
+}
+
+.footer-copyright {
+    font-size: 0.9rem;
+    color: #eaeaea;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        font-size: 2rem;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .tagline {
+        font-size: 1.1rem;
+    }
+
+    main {
+        padding: 1.5rem;
+    }
+
+    .site-link {
+        height: 100px;
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .logo {
+        width: 80px;
+    }
+
+    .tagline {
+        font-size: 1rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    .site-link {
+        height: 80px;
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
