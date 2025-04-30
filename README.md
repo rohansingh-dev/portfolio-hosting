@@ -16,7 +16,6 @@ portfolio-hosting/
 │   ├── logo.png
 │   ├── styles.css
 ├── index.html
-└── README.md
 ```
 
 ## How to Use
