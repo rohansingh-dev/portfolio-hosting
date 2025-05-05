@@ -2,20 +2,20 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1a1a2e;
-    color: #eaeaea;
+    background-color: #18181b; /* deep charcoal */
+    color: #e0e0e0; /* light gray for text */
     line-height: 1.6;
 }
 
 header {
-    background-color: #16213e;
+    background-color: #23232b; /* darker, matte */
     padding: 1.5rem;
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
     text-transform: uppercase;
-    color: #e94560;
-    border-bottom: 3px solid #0f3460;
+    color: #bfa46f; /* muted gold accent */
+    border-bottom: 3px solid #353535; /* subtle border */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,12 +26,14 @@ header {
     width: 120px;
     height: auto;
     border-radius: 50%;
-    border: 2px solid #e94560;
+    border: 2px solid #bfa46f; /* gold accent */
+    background: #23232b;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.7);
 }
 
 .tagline {
     font-size: 1.3rem;
-    color: #a6a6a6;
+    color: #888888; /* muted gray */
     font-style: italic;
 }
 
@@ -58,49 +60,51 @@ main {
     justify-content: center;
     width: 100%;
     height: 120px;
-    background: linear-gradient(135deg, #e94560, #0f3460);
-    color: white;
+    background: linear-gradient(135deg, #23232b 60%, #353535 100%);
+    color: #bfa46f;
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: bold;
     border-radius: 15px;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
-    transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+    border: 1.5px solid #353535;
+    transition: transform 0.3s, box-shadow 0.3s, background 0.3s, color 0.3s;
 }
 
 .site-link:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
-    background: linear-gradient(135deg, #0f3460, #e94560);
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.7);
+    background: linear-gradient(135deg, #353535 60%, #bfa46f 100%);
+    color: #23232b;
 }
 
 footer {
     text-align: center;
     padding: 1.5rem;
-    background-color: #16213e;
-    color: #eaeaea;
-    border-top: 3px solid #0f3460;
+    background-color: #23232b;
+    color: #e0e0e0;
+    border-top: 3px solid #353535;
 }
 
 .footer-text {
     font-size: 1rem;
-    color: #a6a6a6;
+    color: #888888;
 }
 
 .footer-link {
     text-decoration: none;
-    color: #e94560;
+    color: #bfa46f;
     font-weight: bold;
 }
 
 .footer-link:hover {
     text-decoration: underline;
-    color: #0f3460;
+    color: #353535;
 }
 
 .footer-copyright {
     font-size: 0.9rem;
-    color: #eaeaea;
+    color: #e0e0e0;
     margin-top: 10px;
 }
 
