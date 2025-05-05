@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netfilixk - Home</title>
+  <link rel="stylesheet" href="assets/juhi/style.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="logo">Netfilixk</div>
+    <nav>
+      <a href="juhi.html">Home</a>
+      <a href="assets/juhi/browse.html">Browse</a>
+      <a href="assets/juhi/about.html">About</a>
+    </nav>
+  </header>
+  <section class="hero" id="hero-section">
+    <!-- Hero content will be loaded by JS -->
+  </section>
+  <main>
+    <h2 class="section-title">Trending Now</h2>
+    <div class="movie-row" id="trending-row">
+      <!-- Trending movies will be loaded by JS -->
+    </div>
+  </main>
+  <script src="assets/juhi/script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      loadHero();
+      loadTrending();
+    });
+  </script>
+</body>
+</html>

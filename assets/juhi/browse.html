@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netfilixk - Browse</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="logo">Netfilixk</div>
+    <nav>
+      <a href="../juhi.html">Home</a>
+      <a href="browse.html">Browse</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+  <main>
+    <h2 class="section-title">Browse by Genre</h2>
+    <div id="genre-list">
+      <!-- Genre sections will be loaded by JS -->
+    </div>
+  </main>
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      loadGenres();
+    });
+  </script>
+</body>
+</html>
