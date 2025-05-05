@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping Kart</title>
+  <link rel="stylesheet" href="/assets/yash/style.css">
+</head>
+<body>
+  <div class="site-container">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <span>🛒</span> Shopping Kart
+      </div>
+      <nav class="sidebar-nav">
+        <a href="#" class="sidebar-link" data-page="home">🏠 Home</a>
+        <a href="#" class="sidebar-link" data-page="products">🛍️ Products</a>
+        <a href="#" class="sidebar-link" data-page="about">ℹ️ About</a>
+        <a href="#" class="sidebar-link" data-page="contact">✉️ Contact</a>
+      </nav>
+      <div class="sidebar-cart">
+        <button id="cart-btn">
+          <span class="cart-icon">🛒</span>
+          <span class="cart-label">Cart</span>
+          (<span id="cart-count">0</span>)
+        </button>
+      </div>
+    </aside>
+    <div class="main-content-area">
+      <main id="main-content">
+        <!-- Dynamic content will be loaded here -->
+      </main>
+      <div id="cart-modal" class="modal">
+        <div class="modal-content">
+          <span class="close" id="close-cart">&times;</span>
+          <h2>Your Cart</h2>
+          <ul id="cart-items"></ul>
+          <div class="cart-total">Total: ₹<span id="cart-total">0</span></div>
+        </div>
+      </div>
+      <footer>
+        &copy; <span id="year"></span> Shopping Kart. All rights reserved.
+      </footer>
+    </div>
+  </div>
+  <script src="/assets/yash/script.js"></script>
+</body>
+</html>
