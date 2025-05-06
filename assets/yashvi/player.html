@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <span class="logo-icon">🎵</span>
+                <span class="logo-text">Bluefy</span>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="../../yashvi.html">Home</a>
+                <a href="browse.html">Browse</a>
+                <a href="player.html" class="active">Player</a>
+                <a href="about.html">About</a>
+            </nav>
+            <div class="sidebar-footer">
+                <p>© 2025 Bluefy</p>
+            </div>
+        </aside>
+        <div class="main-section">
+            <header class="topbar">
+                <div class="user-info">
+                    <span class="user-avatar">👤</span>
+                    <span class="user-name">Guest</span>
+                </div>
+            </header>
+            <main class="main-content">
+                <h1>Music Player</h1>
+                <div id="player-container"></div>
+                <section id="track-details" class="player-details-section"></section>
+                <section id="playlist-section" class="player-playlist-section"></section>
+            </main>
+        </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="player.js"></script>
+</body>
+</html>
