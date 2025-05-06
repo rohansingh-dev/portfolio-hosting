@@ -1,4 +1,4 @@
-# Portfolio Web Hosting
+# Web Hosting
 
 This project is a simple web application designed to showcase multiple portfolios. It provides links to individual portfolio sites and allows users to request their portfolios to be added.
 
@@ -8,15 +8,6 @@ This project is a simple web application designed to showcase multiple portfolio
 - **Main Section**: Contains links to various portfolio sites.
 - **Footer**: Includes contact information for adding portfolios and copyright details.
 
-## File Structure
-
-```
-portfolio-hosting/
-├── assets/
-│   ├── logo.png
-│   ├── styles.css
-├── index.html
-```
 
 ## How to Use
 
