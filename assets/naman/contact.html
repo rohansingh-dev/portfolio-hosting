@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Booking - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Hotel Booking</div>
+            <ul>
+                <li><a href="../../naman.html">Home</a></li>
+                <li><a href="booking.html">Book</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-section">
+            <h2>Contact Us</h2>
+            <div class="contact-layout">
+                <div class="contact-info">
+                    <p>Email: <b>info@hotelbooking.com</b></p>
+                    <p>Phone: <b>+1 234 567 890</b></p>
+                    <p>Address: 123 Main Street, City, Country</p>
+                    <img src="https://maps.googleapis.com/maps/api/staticmap?center=New+York,NY&zoom=13&size=300x150&key=AIzaSyD-EXAMPLE" alt="Map" class="contact-map">
+                </div>
+                <form class="contact-form">
+                    <label for="cname">Your Name:</label>
+                    <input type="text" id="cname" name="cname" required>
+                    <label for="cemail">Your Email:</label>
+                    <input type="email" id="cemail" name="cemail" required>
+                    <label for="cmsg">Message:</label>
+                    <textarea id="cmsg" name="cmsg" rows="4" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Hotel Booking. All rights reserved.</p>
+    </footer>
+</body>
+</html>
